@@ -5,18 +5,18 @@ body {
 .landing-page {
     background-color: #222;
 }
-.landing-page__content {
+.landing-page-content {
     color: white;
     font-weight: bold;
     text-align: center;
 }
 
-.landing-page__content--line {
+.landing-page-content__line {
     border-top-width: 2px;
     border-top-color: #0062ff;
     margin: 0 auto;
 }
 
-.landing-page__content--btn {
+.landing-page-content__btn {
     color: #0062ff;
 }
