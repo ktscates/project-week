@@ -5,6 +5,7 @@ body {
 .landing-page {
     background-color: #222;
 }
+
 .landing-page-content {
     color: white;
     font-weight: bold;
@@ -19,4 +20,22 @@ body {
 
 .landing-page-content__btn {
     color: #0062ff;
+}
+
+.hyundai-section {
+    background-image: url("./img/hyundai.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ship-section {
+    background-image: url("./img/soldier.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.shapes-section {
+    background-image: url("./img/prizm.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
