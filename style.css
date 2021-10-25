@@ -39,3 +39,16 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.grid__list {
+    margin-top: 5vh;
+}
+
+.grid__list--items {
+    color: #0062ff;
+}
+
+.grid__horizontal-line {
+    border-top-color: #0062ff;
+    border-top-width: 2px;
+}
