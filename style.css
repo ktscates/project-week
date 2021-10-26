@@ -52,3 +52,11 @@ body {
     border-top-color: #0062ff;
     border-top-width: 2px;
 }
+
+.services__paragraph {
+    color: #444444;
+}
+
+.services__title {
+    color: #1f1f1f;
+}
