@@ -18,3 +18,7 @@ body {
     border-top-color: #0062ff;
     border-top-width: 2px;
 }
+
+.button {
+    color: #0062ff;
+}
