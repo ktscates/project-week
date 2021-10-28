@@ -22,3 +22,11 @@ body {
 .button {
     color: #0062ff;
 }
+
+.grid__list--items {
+    color: #0062ff;
+}
+
+.footer__text-color {
+    color: #666666
+}
