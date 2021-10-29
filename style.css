@@ -1,6 +1,30 @@
 body {
     font-family: 'IBM Plex Sans', "Helvetica Neue", Arial, sans-serif;
-    /* background-color: #222; */
+}
+
+.section-one {
+    background-color: #222;
+}
+
+.content__paragraph {
+    color: #666666
+}
+
+.content__paragraph--title {
+    color: #444444
+}
+
+.horizontal-line {
+    border-top-color: #0062ff;
+    border-top-width: 2px;
+}
+
+.button {
+    color: #0062ff;
+}
+
+.footer__text-color {
+
 }
 
 .landing-page {
