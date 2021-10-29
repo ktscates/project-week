@@ -17,7 +17,37 @@
                 <h4 class="text-white uppercase font-extrabold ml-10 text-xs mt-3">Home . Services</h4>
             </div>
             <div>
-                <img class="w-6" src="./img/menu.png" alt="menu-icon" />
+                <!-- Trigger/Open The Modal -->
+                <button id="myBtn"><img class="w-6" src="./img/menu.png" alt="menu-icon" /></button>
+
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <ul class="space-y-8 font-extrabold text-3xl p-10 cursor-pointer">
+                        <li><a class="hover:text-blue-500" href="./link-page.html">About</a></li>
+                        <li><a class="hover:text-blue-500" href="./services.html">Services</a></li>
+                        <li><a class="hover:text-blue-500" href="./link-page.html">Work</a></li>
+                        <li><a class="hover:text-blue-500" href="./link-page.html">Blog</a></li>
+                        <li><a class="hover:text-blue-500" href="./link-page.html">Contact</a></li>
+                        <li><a class="hover:text-blue-500" href="./jobs.html">Jobs</a></li>
+                    </ul>
+                    <div class="flex justify-center space-x-10 cursor-pointer">
+                        <a href="./link-page.html">
+                            <img class="w-8" src="./img/twitter.png" alt="">
+                        </a>
+                        <a href="./link-page.html">
+                            <img class="w-8" src="./img/facebook.png" alt="">
+                        </a>
+                        <a href="./link-page.html">
+                            <img class="w-8" src="./img/instagram.png" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                </div>
             </div>
         </div> 
 
@@ -120,5 +150,33 @@
     </section>
 
     <footer class="section-one footer__text-color text-xs text-center p-14">&copy; Aperto 2021 . Imprint/Privacy</footer>
+
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
+        
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+        
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+        
+        // When the user clicks the button, open the modal 
+        btn.onclick = function() {
+          modal.style.display = "block";
+        }
+        
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+          modal.style.display = "none";
+        }
+        
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        }
+    </script>
 </body>
 </html>
