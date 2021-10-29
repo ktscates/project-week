@@ -1,16 +1,67 @@
-.content {
+body {
+    font-family: 'IBM Plex Sans', "Helvetica Neue", Arial, sans-serif;
+    /* background-color: #222; */
+}
+
+.landing-page {
+    background-color: #222;
+}
+
+.landing-page-content {
+    color: white;
+    font-weight: bold;
     text-align: center;
-    background-color: slategrey;
 }
 
-.content__title {
-    color: #245;
-    font-size: 50px;
-    font-weight: bolder;
+.landing-page-content__line {
+    border-top-width: 2px;
+    border-top-color: #0062ff;
+    margin: 0 auto;
 }
 
-.content__subtitle{
-    color: rgb(235, 166, 76);
-    font-size: 14px;
-    font-weight: 200;
+.landing-page-content__btn {
+    color: #0062ff;
+}
+
+.hyundai-section {
+    background-image: url("./img/hyundai.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ship-section {
+    background-image: url("./img/soldier.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.shapes-section {
+    background-image: url("./img/prizm.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.grid__list {
+    margin-top: 5vh;
+}
+
+.grid__list--items {
+    color: #0062ff;
+}
+
+.grid__horizontal-line {
+    border-top-color: #0062ff;
+    border-top-width: 2px;
+}
+
+.services__paragraph {
+    color: #444444;
+}
+
+.services__title {
+    color: #1f1f1f;
+}
+
+.footer__text-color {
+    color: #666;
 }
