@@ -2,93 +2,39 @@ body {
     font-family: 'IBM Plex Sans', "Helvetica Neue", Arial, sans-serif;
 }
 
-.section-one {
+.homepage{
     background-color: #222;
 }
 
-.content__paragraph {
-    color: #666666
-}
-
-.content__paragraph--title {
-    color: #444444
-}
-
-.horizontal-line {
-    border-top-color: #0062ff;
-    border-top-width: 2px;
-}
-
-.button {
-    color: #0062ff;
-}
-
-.grid__list--items {
-    color: #0062ff;
-}
-
-.footer__text-color {
-    color: #666666
-}
-
-.section-one {
-    background-color: #222;
-}
-
-.content__paragraph {
-    color: #666666
-}
-
-.content__paragraph--title {
-    color: #444444
-}
-
-.horizontal-line {
-    border-top-color: #0062ff;
-    border-top-width: 2px;
-}
-
-.button {
-    color: #0062ff;
-}
-
-.footer__text-color {
-
-}
-
-.landing-page {
-    background-color: #222;
-}
-
-.landing-page-content {
+.homepage__content {
     color: white;
     font-weight: bold;
     text-align: center;
 }
 
-.landing-page-content__line {
+.homepage__content---line {
     border-top-width: 2px;
     border-top-color: #0062ff;
     margin: 0 auto;
 }
 
-.landing-page-content__btn {
+.homepage__content--links {
     color: #0062ff;
 }
 
-.hyundai-section {
+.carousel--hyundai {
     background-image: url("./img/hyundai.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.ship-section {
+.carousel--ship {
     background-image: url("./img/soldier.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.shapes-section {
+.carousel--shapes {
     background-image: url("./img/prizm.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -118,6 +64,53 @@ body {
 .footer__text-color {
     color: #666;
 }
+
+.jobs__paragraph {
+    color: #666666
+}
+
+.jobs__paragraph--title {
+    color: #444444
+}
+
+.button {
+    color: #0062ff;
+}
+
+.grid__list--items {
+    color: #0062ff;
+}
+
+.footer__text-color {
+    color: #666666
+}
+
+.section-one {
+    background-color: #222;
+}
+
+.content__paragraph {
+    color: #666666
+}
+
+.content__paragraph--title {
+    color: #444444
+}
+
+.horizontal-line {
+    border-top-color: #0062ff;
+    border-top-width: 2px;
+}
+
+.button {
+    color: #0062ff;
+}
+
+.footer__text-color {
+
+}
+
+
 
 /* The Modal (background) */
 .modal {
