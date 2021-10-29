@@ -2,93 +2,39 @@ body {
     font-family: 'IBM Plex Sans', "Helvetica Neue", Arial, sans-serif;
 }
 
-.section-one {
+.homepage{
     background-color: #222;
 }
 
-.content__paragraph {
-    color: #666666
-}
-
-.content__paragraph--title {
-    color: #444444
-}
-
-.horizontal-line {
-    border-top-color: #0062ff;
-    border-top-width: 2px;
-}
-
-.button {
-    color: #0062ff;
-}
-
-.grid__list--items {
-    color: #0062ff;
-}
-
-.footer__text-color {
-    color: #666666
-}
-
-.section-one {
-    background-color: #222;
-}
-
-.content__paragraph {
-    color: #666666
-}
-
-.content__paragraph--title {
-    color: #444444
-}
-
-.horizontal-line {
-    border-top-color: #0062ff;
-    border-top-width: 2px;
-}
-
-.button {
-    color: #0062ff;
-}
-
-.footer__text-color {
-
-}
-
-.landing-page {
-    background-color: #222;
-}
-
-.landing-page-content {
+.homepage__content {
     color: white;
     font-weight: bold;
     text-align: center;
 }
 
-.landing-page-content__line {
+.homepage__content---line {
     border-top-width: 2px;
     border-top-color: #0062ff;
     margin: 0 auto;
 }
 
-.landing-page-content__btn {
+.homepage__content--links {
     color: #0062ff;
 }
 
-.hyundai-section {
+.carousel--hyundai {
     background-image: url("./img/hyundai.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.ship-section {
+.carousel--ship {
     background-image: url("./img/soldier.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.shapes-section {
+.carousel--shapes {
     background-image: url("./img/prizm.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -107,14 +53,49 @@ body {
     border-top-width: 2px;
 }
 
-.services__paragraph {
-    color: #444444;
+.content__paragraph {
+    color: #666666
 }
 
-.services__title {
-    color: #1f1f1f;
+.content__paragraph--title {
+    color: #444444
 }
 
-.footer__text-color {
-    color: #666;
-}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    margin: auto;
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+    color: white;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
