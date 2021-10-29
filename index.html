@@ -3,23 +3,181 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link href="./style.css" rel="stylesheet">
-    <title>Document</title>
+    <title>Aperto</title>
 </head>
 <body>
-    <div class="content">
-        <h1 class="content__title">Hello World!</h1>
-        <h6 class="content__subtitle">How you doing?</h6>
-    </div>
-    <div class="content">
-        <button class="bg-yellow-600 text-white px-8 py-3 rounded-full font-bolder">Get Started</button>
-        <a class="text-yellow-600 bg-transparent rounded-full font-bolder px-8 py-3">Learn more</a>
-    </div>
-    <div>
-        <p class="text-center ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        
-    </div>
+
+    <section class="landing-page w-full h-screen">
+
+        <div class="flex justify-between p-10">
+            <img class="w-32" src="./img/aperto-logo.svg" alt="logo" />
+
+            <div>
+                <img class="w-6" src="./img/menu.png" alt="menu-icon" />
+            </div>
+        </div> 
+
+        <div class="landing-page-content p-12 mt-44">
+            
+            <h1 class="text-6xl mb-10 font-bold">Good Experience is Good Business.</h1>
+            <hr class="landing-page-content__line w-5">
+            <p class="text-xs mt-3">Welcome to IBM iX Studio Berlin - Aperto</p>
+            <button class="landing-page-content__btn text-xs mt-3">More about us</button>
+        </div>
+
+    </section>
+
+    <section class="hyundai-section w-full h-screen relative">
+        <div class="absolute bottom-48 text-center w-full">
+            <h1 class=" text-white text-6xl mb-10 font-bold">Hyundai</h1>
+            <hr class="landing-page-content__line w-5">
+            <p class="text-white text-xs mt-3 uppercase font-bold">Europe-Wide Transportation of the digital customer lifecycle</p>
+        </div>
+    </section>
+
+    <section class="ship-section w-full h-screen relative">
+        <div class="absolute bottom-36 text-center w-full">
+            <h1 class=" text-white text-6xl mb-10 font-bold">Bundeswehr</h1>
+            <hr class="landing-page-content__line w-5">
+            <p class="text-white text-xs mt-3 uppercase font-bold">Relaunch of the German armed forces digital media offering</p>
+        </div>
+    </section>
+
+    <section class="shapes-section w-full h-screen relative">
+        <div class="absolute bottom-36 text-center w-full">
+            <h1 class=" text-white text-6xl mb-10 font-bold">IBM iX at DMEXCO 2021</h1>
+            <hr class="landing-page-content__line w-5">
+            <p class="text-white text-xs mt-3 uppercase font-bold">Let the experience begin</p>
+        </div>
+    </section>
+
+    <section class="grid grid-cols-4">
+        <div class="relative">
+            <img class="w-6/5 relative" src="./img/girl.png" alt="girl" />
+            <h3 class="absolute top-0 p-10 text-white font-bold text-4xl">Migros iMpuls</h3>
+            <div class="absolute bottom-0 p-10">
+                <hr class="grid__horizontal-line  w-5">
+                <p class="text-white text-xs mt-3 uppercase font-bold">The personalised service for a healthier life</p>
+            </div>
+        </div>
+
+        <div class="relative">
+            <img class="w-6/5 relative" src="./img/ocean.png" alt="ocean" />
+            <h3 class="absolute top-0 p-10 text-white font-bold text-4xl">Federal Ministry of Defence</h3>
+            <div class="absolute bottom-0 p-10">
+                <hr class="grid__horizontal-line  w-5">
+                <p class="text-white text-xs mt-3 uppercase font-bold">User orientation as a strategice principle</p>
+            </div>
+        </div>
+
+        <div class="relative">
+            <img class="w-6/5 relative" src="./img/hands.png" alt="hands" />
+            <h3 class="absolute top-0 p-10 text-white font-bold text-4xl">All our project</h3>
+            <div class="absolute bottom-0 p-10">
+                <hr class="grid__horizontal-line  w-5">
+                <p class="text-white text-xs mt-3 uppercase font-bold">Fundraising first</p>
+            </div>
+        </div>
+
+        <div class="landing-page p-10">
+            <h3 class="text-white font-bold text-4xl text-center">Our technical partners</h3>
+            <ul class="grid__list space-y-1">
+                <li class="grid__list--items text-xl">CoreMedia</li>
+                <li class="grid__list--items text-xl">Magnolia</li>
+                <li class="grid__list--items text-xl">Salesforce</li>
+                <li class="grid__list--items text-xl">Acquia</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="p-32 mx-72">
+        <h3 class="font-bold text-3xl mb-8 services__title">Our services</h3>
+        <p class="mb-3 services__paragraph">We have been implementing digital projects with our customers since 1995. We rely on our broad<br/> expertise, innovative technologies, agile working methods and strong partnerships. Since 2016 we<br/> belong to the IBM iX agency family, which gives us access to additional innovative resources.<br/> Together, we take digital transformation to the next level: digital reinvention.</p>
+        <button class="landing-page-content__btn text-md mt-3">More about our services</button>
+    </section>
+
+    <section class="-mt-10">
+        <div class="grid grid-cols-4">
+            <div class="relative">
+                <img class="w-6/5 relative" src="./img/blue.png" alt="girl" />
+                <h3 class="absolute top-0 p-10 text-white font-bold text-4xl">IBM iX Digital Talks</h3>
+                <div class="absolute bottom-0 p-10">
+                    <hr class="grid__horizontal-line  w-5">
+                    <p class="text-white text-xs mt-3 uppercase font-bold">Event series</p>
+                </div>
+            </div>
+    
+            <div class="relative">
+                <img class="w-6/5 relative" src="./img/card.png" alt="ocean" />
+                <h3 class="absolute top-0 p-10 text-white font-bold text-4xl">The new TheraKey</h3>
+                <div class="absolute bottom-0 p-10">
+                    <hr class="grid__horizontal-line  w-5">
+                    <p class="text-white text-xs mt-3 uppercase font-bold">Blog</p>
+                </div>
+            </div>
+    
+            <div class="relative">
+                <img class="w-6/5 relative" src="./img/jobs.png" alt="hands" />
+                <h3 class="absolute top-0 p-10 text-white font-bold text-4xl">Jobs</h3>
+            </div>
+    
+            <div class="bg-white p-10 relative">
+                <h3 class="absolute top-0 p-10 text-black font-bold text-4xl">Blog</h3>
+                <div class="absolute bottom-0 p-10">
+                    <hr class="grid__horizontal-line  w-5">
+                    <p class="text-black text-xs mt-3 uppercase font-bold">News</p>
+                </div>
+            </div>
+        </div>
+        <div class="grid grid-cols-4">
+            <div class="relative">
+                <img class="w-6/5 relative" src="./img/phone1.png" alt="girl" />
+                <h3 class="absolute top-0 p-10 text-white font-bold text-4xl">Aperto redesigns the digital sustainability communication of Migros</h3>
+                <div class="absolute bottom-0 p-10">
+                    <hr class="grid__horizontal-line  w-5">
+                    <p class="text-white text-xs mt-3 uppercase font-bold">Blog</p>
+                </div>
+            </div>
+    
+            <div class="relative">
+                <img class="w-6/5 relative" src="./img/people.png" alt="ocean" />
+                <h3 class="absolute top-0 p-10 text-white font-bold text-4xl">Personalisation - how it works!</h3>
+                <div class="absolute bottom-0 p-10">
+                    <hr class="grid__horizontal-line  w-5">
+                    <p class="text-white text-xs mt-3 uppercase font-bold">Blog</p>
+                </div>
+            </div>
+    
+            <div class="relative">
+                <img class="w-6/5 relative" src="./img/phone2.png" alt="hands" />
+                <h3 class="absolute top-0 p-10 text-white font-bold text-4xl">Gone live: The new BVG.de</h3>
+                <div class="absolute bottom-0 p-10">
+                    <hr class="grid__horizontal-line  w-5">
+                    <p class="text-white text-xs mt-3 uppercase font-bold">Blog</p>
+                </div>
+            </div>
+    
+            <div class="relative">
+                <img class="w-6/5 relative" src="./img/shapes.png" alt="hands" />
+                <h3 class="absolute top-0 p-10 text-white font-bold text-4xl">IBM iX Family</h3>
+                <div class="absolute bottom-0 p-10">
+                    <hr class="grid__horizontal-line  w-5">
+                    <p class="text-white text-xs mt-3 uppercase font-bold">Our mission</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="landing-page text-center p-12">
+        <h3 class="text-white text-4xl font-bold">Contact</h3>
+    </section>
+
+    <footer class="landing-page footer__text-color text-xs text-center p-14">&copy; Aperto 2021 . Imprint/Privacy</footer>
 </body>
 </html>

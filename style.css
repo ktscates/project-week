@@ -30,3 +30,91 @@ body {
 .footer__text-color {
     color: #666666
 }
+
+.section-one {
+    background-color: #222;
+}
+
+.content__paragraph {
+    color: #666666
+}
+
+.content__paragraph--title {
+    color: #444444
+}
+
+.horizontal-line {
+    border-top-color: #0062ff;
+    border-top-width: 2px;
+}
+
+.button {
+    color: #0062ff;
+}
+
+.footer__text-color {
+
+}
+
+.landing-page {
+    background-color: #222;
+}
+
+.landing-page-content {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.landing-page-content__line {
+    border-top-width: 2px;
+    border-top-color: #0062ff;
+    margin: 0 auto;
+}
+
+.landing-page-content__btn {
+    color: #0062ff;
+}
+
+.hyundai-section {
+    background-image: url("./img/hyundai.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ship-section {
+    background-image: url("./img/soldier.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.shapes-section {
+    background-image: url("./img/prizm.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.grid__list {
+    margin-top: 5vh;
+}
+
+.grid__list--items {
+    color: #0062ff;
+}
+
+.grid__horizontal-line {
+    border-top-color: #0062ff;
+    border-top-width: 2px;
+}
+
+.services__paragraph {
+    color: #444444;
+}
+
+.services__title {
+    color: #1f1f1f;
+}
+
+.footer__text-color {
+    color: #666;
+}
